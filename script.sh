@@ -1,4 +1,4 @@
 #!/bin/sh
-yum -y install httpd
+apt -y install httpd
 systemctl enable httpd
 systemctl start httpd
