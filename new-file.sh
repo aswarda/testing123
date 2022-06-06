@@ -6,4 +6,4 @@ if [[ $UID != 0 ]]; then
     exit 1
 fi
 
-sudo apt-get -y install mysql-server
+sudo yum -y install mysql-server
