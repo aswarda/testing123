@@ -1,5 +1,5 @@
 #!/bin/bash 
-sudo yum nginx -y
+sudo yum install nginx -y
 systemctl start nginx
 systemctl enable nginx
 cat /etc/os-release
