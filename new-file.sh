@@ -1,6 +1,6 @@
 #!/bin/bash 
-sudo yum install httpd -y
-systemctl start httpd
-systemctl enable httpd
+sudo yum nginx -y
+systemctl start nginx
+systemctl enable nginx
 cat /etc/os-release
 
