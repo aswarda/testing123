@@ -1,9 +1,9 @@
 #!/bin/bash 
 sudo yum install nginx -y
-systemctl start nginx
 systemctl enable nginx
+systemctl start nginx
 cat /etc/os-release
 sudo yum install mariadb -y
-systemctl start mariadb
 systemctl enable mariadb
+systemctl start mariadb
 
